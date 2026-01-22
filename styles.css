@@ -118,3 +118,39 @@ img {
     color: gray;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 85px;
+    gap: 10px;
+}
+
+.quote-text {
+    text-align: left;
+    margin: 0;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.quote-author {
+    text-align: right;
+    margin: 0;
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 50px;
+}
