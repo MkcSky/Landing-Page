@@ -154,3 +154,66 @@ img {
     margin: 0;
     margin-right: 50px;
 }
+
+.sign-up-section {
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    /* padding: 15px 80px 15px 80px; */
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 55%;
+    padding: 20px 80px 20px 80px;
+}
+
+.sign-up-container {
+    color: #F9FAF8;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px 0 20px 20px;
+}
+
+.sign-up-text p {
+    margin: 0;
+}
+
+.sign-up-text .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-container button {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    align-self: center;
+    justify-self: flex-end;
+    padding: 7px 30px 7px 30px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 34px;
+}
