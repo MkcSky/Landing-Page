@@ -20,20 +20,40 @@ body {
     display: flex;
     align-self: center;
     justify-self: space-evenly;
-    max-width: 60%;
-    padding: 45px;
+    width: 70%;
+    padding: 120px;
+    gap: 70px;
     
 }
 
-.hero-main-content {
+.hero-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     
 }
 
-.hero-main-content p {
+.hero-info h1 {
+    align-self: flex-start;
     margin: 0;
+}
+
+.hero-info p {
+    margin: 0;
+    color: #F9FAF8;
+    
+}
+
+.hero-info button {
+    align-self: flex-start;
+    background-color: #3882f6;
+    border: 0 solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 7px 30px 7px 30px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .hero-main-text {
@@ -74,6 +94,7 @@ img {
     width: 400px;
     height: 200px;
     flex-shrink: 0;
+    margin-right: 20px;
 }
 
 .box-section {
